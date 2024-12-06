@@ -1,4 +1,5 @@
-document.getElementById('uploadForm').addEventListener('submit', async (event) => {
+const form = document.getElementById('uploadForm');
+form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const formData = new FormData(event.target);
